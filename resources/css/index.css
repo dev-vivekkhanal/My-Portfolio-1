@@ -135,8 +135,7 @@ nav{
 
 /* Sections */
 
-.sections{
-    scroll-snap-align: start;  
+.sections{ 
     padding-top: 50px;
 }
 
@@ -452,9 +451,11 @@ textarea{
 footer{
     display: flex;
      background-color:#0d0131;
+     
  }
  
  .copyright{
+    height: 50px;
      font-size: 1rem;
      margin: 30px auto;
      color: #928d8d;
