@@ -71,10 +71,10 @@
                         </div>
                     </a>
                 </div>
-                <div class="chevron">
-                    <a href="#about-section">
-                        <i class="fas fa-chevron-down"></i>
-                        <i class="fas fa-chevron-down chevron-2"></i>
+                <div class="chevron-div">
+                    <a class="chevron-link" href="#about-section">
+                        <i class="fas fa-chevron-down" id="chevron1"></i>
+                        <i class="fas fa-chevron-down" id="chevron2"></i>
                     </a>
                 </div>
                 
@@ -85,16 +85,147 @@
 
     <!-- About Section -->
     <section class="sections" id="about-section">
-        <h2>About Me</h2> 
-        <p>this is p</p>
+        <div class="container">
+            <div class="about-contents">
+                <div class="img-div">
+                    <img src="./resources/img/potrait.png" alt="Vivek's bitmoji" class="my-img">
+                </div>
+                <div class="intro">
+                    <h2 class="intro-head">
+                        Who am I?
+                    </h2>
+                    <p>
+                        Hi there, my name is <strong> <span class="intro-highlighted-txt">Vivek Khanal</span></strong>. I m a <strong> <span class="intro-highlighted-txt">Web Developer</span> </strong> and <strong> <span class="intro-highlighted-txt">Electronics &amp Communication Engineer</strong></span>. I help designers, small agencies and businesses bring their ideas to life. Check out my projects to see what I m capable of.
+                    </p>
+                    <div class="about-btn-div">
+                        <a href="#projects-section" class="btn about-btn">Projects</a>
+                        <a href="#projects-section" class="btn about-btn">Resume</a>
+                    </div>
+                    <div class="skill-div">
+                        <h2 class="skill-head">
+                            Skills
+                        </h2>
+                        <div class="skill-card-div flex">
+                            <div class="skill-cards">
+                                <i class="fab fa-html5 skill-icon"></i>
+                                <span class="skill-name">HTML5</span>
+                            </div>
+                            <div class="skill-cards">
+                                <i class="fab fa-css3-alt skill-icon"></i>
+                                <span class="skill-name">CSS</span>
+                            </div>
+                            <div class="skill-cards">
+                                <i class="fab fa-js skill-icon"></i>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <div class="skill-cards">
+                                <i class="fab fa-react skill-icon"></i>
+                                <span class="skill-name">React</span>
+                            </div>
+                            <div class="skill-cards">
+                                <i class="fab fa-python skill-icon"></i>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <div class="skill-cards">
+                                <i class="fab fa-node skill-icon"></i>
+                                <span class="skill-name">NodeJs</span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="sections" id="section3">
-        <h2>section 3</h2> 
-        <p>this is p</p>
+
+
+
+    <!-- Project Section -->
+    <section class="sections" id="projects-section">
+        <div class="container">
+            <h1 class="project-section-head">
+                Projects
+            </h1>
+            <div class="project-contents">
+                <div class="project-cards">
+                    <div class="project-cards-contents">
+                        <div class="project-img-div">
+                            <img src="./resources/img/coding.gif" alt="" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h2 class="project-name">
+                                 Student Portal
+                            </h2>
+                            <p class="project-description">
+                                A dashboard like interface for students to interact with their college or university. They can see their academics records, upcoming events and also chat with teachers or other students.
+                            </p>
+                            <h3 class="project-card-heads">
+                                Features:
+                            </h3>
+                            <p class="features">
+                                Chat Room | CRUD Operations | Dynamic Content 
+                            </p>
+                            <h3 class="project-card-heads">
+                                Technologies Used:
+                            </h3>
+                            <p class="technologies">
+                                HTML | CSS | JavaScript | React | NodeJs | MongoDb | Express | Redux
+                            </p>
+
+                            <div class="project-card-div">
+                                <div class="btn project-card-btn">
+                                    <i class="far fa-file-code"></i> Code
+                                </div>
+                                <div class="btn project-card-btn">
+                                    <i class="fas fa-laptop-code"></i> Live
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-cards">
+                    <div class="project-cards-contents">
+                        <div class="project-img-div">
+                            <img src="./resources/img/coding.gif" alt="" class="project-img">
+                        </div>
+                        <div class="project-info">
+                            <h2 class="project-name">
+                                1. Student Portal
+                            </h2>
+                            <p class="project-description">
+                                A dashboard like interface for students to interact with their college or university. They can see their academics records, upcoming events and also chat with teachers or other students.
+                            </p>
+                            <h3 class="project-card-heads">
+                                Features:
+                            </h3>
+                            <p class="features">
+                                Chat Room | CRUD Operations | Dynamic Content 
+                            </p>
+                            <h3 class="project-card-heads">
+                                Technologies Used:
+                            </h3>
+                            <p class="technologies">
+                                HTML | CSS | JavaScript | React | NodeJs | MongoDb | Express | Redux
+                            </p>
+
+                            <div class="project-card-div">
+                                <div class="btn project-card-btn">
+                                    <i class="far fa-file-code"></i> Code
+                                </div>
+                                <div class="btn project-card-btn">
+                                    <i class="fas fa-laptop-code"></i> Live
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="sections" id="section4">
-        <h2>section 4</h2> 
-        <p>this is p</p>
+    <section class="sections" id="contact-section">
+        <h2>This is Contacts</h2> 
+        
     </section>
     </div>
     

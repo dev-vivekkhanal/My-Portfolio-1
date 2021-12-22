@@ -182,18 +182,24 @@ section{
 
 }
 
-.chevron{
+.chevron-div{
     margin-top: 150px;
     font-size: 1.8rem;
     animation: delay-animation 3s, chevron 1s  ease 3s  infinite alternate   ;
 }
 
-.chevron>a>i{
+.chevron-link>i{
     display: block;
     line-height: 0.4;
     cursor: default;
     color: var(--primary-dark);
 }
+
+#chevron2{
+    color: var(--secondary-darkest);
+}
+
+
 
 
 
@@ -205,7 +211,149 @@ section{
 /* About Me Page */
 
 #about-section{
-    background-color: var(--primary-darker);
+    background-color: var(--primary-lightest);
+    text-align: center; 
+    color: var(--dark-black);
+}
+
+.about-contents{
+    /* background-color: cornflowerblue; */
+}
+
+.img-div{
+      
+}
+.my-img{
+    width: 50vw;
+    max-width: 300px;
+    
+}
+
+.intro,
+.intro>p{
+    margin: 10px 0;
+}
+
+.intro-head,
+.skill-head{
+    color: var(--primary-dark);
 }
 
 
+
+.intro-highlighted-txt{
+    color: var(--primary-dark);
+    
+    font-size: 1.6rem;
+    font-weight: 600;   
+}
+
+.about-btn-div>a{
+    margin: 20px;
+}
+
+.about-btn{
+    width: 100px;
+    color: var(--white);
+}
+
+.skill-div{
+    margin-top: 20px;
+}
+
+.skill-card-div{
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+
+}
+
+.skill-cards{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem ;
+    transition: transform 0.2s ease;
+}
+
+.skill-cards:hover{
+    color: var(--darkest-black);
+    transform: translateY(-2px);
+
+}
+
+.skill-name{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Projects */
+
+#projects-section{
+    height: 300vh;
+}
+
+.project-section-head{
+    color: var(--primary-light);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-cards{
+    margin: 50px 0;
+    padding: 20px;
+    box-shadow: 0 0 20px var(--primary-lightest);
+    border-radius: 15px;
+}
+
+.project-img-div{
+    text-align: center ;
+}
+
+.project-img{
+    border-radius: 5px;   
+}
+
+.project-info{
+    margin: 20px 0;
+}
+
+.project-name{
+    color: var(--primary-light);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project-card-heads{
+    color: var(--darkest-black);
+}
+
+.project-description,
+.features,
+.technologies{
+    margin-bottom: 15px;
+}
+
+.project-card-div{
+    text-align: center;
+}
+
+.project-card-btn{
+    width: 100px;
+    margin: 0 20px;
+}
+
+
+/* Contacts */
+#contact-section{
+    background-color: violet;
+}
