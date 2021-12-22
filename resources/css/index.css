@@ -6,15 +6,19 @@
 
 /* NavBar */
 nav{
+ 
    padding-top: 50px;
     width: 100%;
-    color: var(--greyish-black);   
+    color: var(--greyish-black);  
+    overflow-x: hidden; 
 }
 
 .nav-contents{
+    
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    overflow: hidden;
 }
 
 .logo{
@@ -35,8 +39,9 @@ nav{
 
 
 .menu{
-    position: fixed;
-    right: 7.5vw;
+    position: absolute;
+    top: 6vh;
+    right: 10vw;
     padding: 10px;
     align-self: flex-start;
     flex-direction: column;
