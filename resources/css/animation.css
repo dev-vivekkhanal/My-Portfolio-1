@@ -47,3 +47,15 @@
     75%  { opacity: 0.75;  }
     100% { opacity: 1; transform: translateY(10px);  }
   }
+
+
+/* project cards animation */
+
+
+@keyframes cards {
+    0%   { flex-basis: 1; }
+    25%  { flex-basis: 25%;   }
+    50%  { flex-basis: 50%;  }
+    75%  { flex-basis: 75%;  }
+    100% { flex-basis: 100%;  }
+  }
