@@ -11,6 +11,7 @@ nav{
     width: 100%;
     color: var(--greyish-black);  
     overflow-x: hidden; 
+    opacity: 0.9;
 }
 
 .nav-contents{
@@ -155,16 +156,41 @@ nav{
 
 #landing-section{
     padding-top: 50px;
+   
+    
+
+}
+
+.landing-contents::before {
+    content: '';
+    background: url('/resources/img/image.webp') 
+        no-repeat center center/cover;
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+   
 }
 
 .landing-contents{
+    
+    
     text-align: center;
+    color: rgb(214, 213, 247);
     margin-top: 50px;
+   
+
+ 
 }
 
 .hero-sm{
+    color: var(--primary-ligh);
     font-size: calc(0.5vw + 1.5rem);
-    font-weight: 500;
+    text-shadow: 5px 5px 20px black;
+    font-weight: 600;
     margin-bottom: 40px;
     animation: hero-sm 0.9s;
     transition: 0.3s all;
@@ -497,8 +523,8 @@ footer{
     /* NavBar */
     .grand-container{
         width: 100vw;
-        height: calc(100vh - 100px); 
-        margin-top:100px;
+        /* height: calc(100vh - 100px); 
+        margin-top:100px; */
         
     }
     .menu{
@@ -511,7 +537,9 @@ nav{
      top: 0;
     padding-top: 0px;
      width: 100%;
-     color: var(--dark-black);  
+     /* color: var(--dark-black);   */
+     color: white;
+     background-color: rgb(0, 0, 0);
  }
  
  .nav-contents{
@@ -521,7 +549,7 @@ nav{
      height: 100px;
      width: 95%;
      padding: 20px;
-     background-color: var(--dark-white);
+     /* background-color: var(--dark-white); */
      
  }
 
@@ -572,8 +600,9 @@ nav{
 
  .nav-list2>li>a:hover{
      font-weight: 500;
-     color: var(--primary-dark);
-     border-bottom: 2px solid var(--primary-dark) ;
+     color: var(--darkest-white);
+    
+     background-color: var(--primary-lightest);
  }
  
  .btn-resume{
