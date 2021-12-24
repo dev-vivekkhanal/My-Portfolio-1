@@ -163,7 +163,7 @@ nav{
 
 .landing-contents::before {
     content: '';
-    background: url('https://github.com/dev-vivekkhanal/My-Portfolio-1/blob/main/resources/img/code1080.jpg') 
+    background: url('../img/code1080.jpg') 
         no-repeat center center/cover;
     position: absolute;
     opacity: 1;
