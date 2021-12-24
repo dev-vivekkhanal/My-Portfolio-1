@@ -163,7 +163,7 @@ nav{
 
 .landing-contents::before {
     content: '';
-    background: url('../img/code1080.jpg') 
+    background: url('../img/image.webp') 
         no-repeat center center/cover;
     position: absolute;
     opacity: 1;
