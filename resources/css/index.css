@@ -161,9 +161,9 @@ nav{
 
 }
 
-.landing-contents::before {
+/* .landing-contents::before {
     content: '';
-    background: url('/resources/img/image.jpg') 
+    background: url('/resources/img/code1080.jpg') 
         no-repeat center center/cover;
     position: absolute;
     opacity: 1;
@@ -173,9 +173,16 @@ nav{
     height: 100vh;
     z-index: -1;
    
-}
+} */
 
 .landing-contents{
+
+    background: url('/resources/img/code1080.jpg') 
+        no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+   
+
     
     
     text-align: center;
